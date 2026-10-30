@@ -1,0 +1,27 @@
+.env
+.venv/
+__pycache__/
+*.py[cod]
+.idea/
+.pytest_cache/
+*.log
+
+# Local configuration, credentials and editor files
+.env.*
+!.env.example
+*.pem
+*.key
+.vscode/
+
+# Generated data and model artifacts (screenshots under docs are tracked)
+output/
+uploads/
+models/
+.cache/
+pdf_job_*/
+*.pdf
+*.zip
+*.safetensors
+*.onnx
+*.pt
+*.pth
